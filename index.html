@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Site </title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- dark and light switch mode -->
+    <!-- dark and light switch mode ends here -->
+  
+
+
+    <!-- navbar starts here -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" id="logo" href="index.html"><span>E</span>xplore</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar starts end here -->
+
+    <!-- home section starts here -->
+    <div class="home">
+        <div class="content">
+            <h5>Welcome To Africa</h5>
+            <h1>Visit <span class="changecontent"></span></h1>
+            <p>Enjoy a warm reception and the best vacation touring african countries</p>
+            <a href="#book">Book Lodge</a>
+        </div>
+    </div>
+    <!-- home section starts ends here -->     
+    
+    <!-- book lodge -->
+    <div class="book" id="book">
+        <div class="container">
+            <div class="main-text">
+                <h1><span>B</span>ook</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/hotel1.jpg" class="bookimg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 py-3 py-md-0">
+                    <form action="#">
+                        <input type="text" class="form-control" placeholder="Where To" required>
+                        <input type="text" class="form-control" placeholder="Duration" required>
+                        <input type="date" class="form-control" placeholder="Arrival" required>
+                        <input type="date" class="form-control" placeholder="Return" required>
+                        <textarea class="form-control" rows="5" name="text" placeholder="Input your Name & Trip Details"></textarea>
+                        <input type="submit" value="Book Now" class="submit" required>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- book lodge ends here -->
+
+    <!-- packages section -->
+    <section class="packages" id="packages">
+        <div class="container">
+            <div class="maintext">
+                <h1><span>P</span>ackages</h1>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="images/hotel-resize1.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Namibia</h3>
+                            <p>Enjoy a fun time with loved ones at amazing suites in Namibia</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h6>Price: <strong>$70</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- destination 2 -->
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="images/hotel-resize2.jpg" alt="">
+                        <div class="card-body">
+                            <h3>South Africa</h3>
+                            <p>Enjoy a fun time with loved ones at amazing suites in South Africa</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star  " ></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>$90</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- destination 2 ends here -->
+                <!-- destination 3 -->
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="images/hotel2.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Angola</h3>
+                            <p>Enjoy a fun time with loved ones at amazing suites in Angola</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h6>Price: <strong>$46</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- destination 3 ends here -->
+                <!-- destination 4 starts -->
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="images/hotel-resize3.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Zambia</h3>
+                            <p>Enjoy a fun time with loved ones at amazing suites in South Africa</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star  " ></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>$30</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- destination 4 starts ends  -->
+                <!-- destination 5 -->
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="images/hotel-resize4.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Kenya</h3>
+                            <p>Enjoy a fun time with loved ones at amazing suites in South Africa</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star  " ></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>$50</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- destination 5 ends here -->
+                <!-- destination 6 -->
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="images/hotel-resize5.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Tanzania</h3>
+                            <p>Enjoy a fun time with loved ones at amazing suites in South Africa</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star  " ></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>$40</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- destination 6 ends -->
+            </div>
+        </div>
+    </section>
+    <!-- packages section ends here -->
+    <!-- service section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="main-text">
+                <h1><span>S</span>ervices</h1>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <i class="fas fa-hotel"></i>
+                    <div class="card-body">
+                        <h3>Affordable Hotels</h3>
+                        <p>Enjoy a cozy vacation in our expert selected affordable hotels</p>
+                    </div>
+                </div>
+            </div>
+            <!-- service 2 -->
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <i class="fas fa-utensils"></i>
+                    <div class="card-body">
+                        <h3>Exotic Meals</h3>
+                        <p>Delicious and Exotic intercontinental and local dishes by the best chefs</p>
+                    </div>
+                </div>
+            </div>
+            <!-- service 2 end -->
+            <!-- service 3 -->
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <i class="fas fa-chess"></i>
+                    <div class="card-body">
+                        <h3>Intellectual Games</h3>
+                        <p>Play advanced intellectual games to keep yourself busy.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- service 3 end -->
+        </div>
+        </div>
+    </section>
+    <!-- service section ends here -->
+
+    <!-- gallery section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="main-text">
+                <h1><span>G</span>allery</h1>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/tanzania.jpg" alt="">
+                    </div>
+                </div>
+                <!-- gallery 2 -->
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/zambia.jpg" alt="">
+                    </div>
+                </div>
+                <!-- gallery 2 ends -->
+                <!-- gallery 3 -->
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/south africa.jpg" alt="">
+                    </div>
+                </div>
+                <!-- gallery 3 ends here -->
+                <!-- gallery 4 -->
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/namibia.jpg" alt="">
+                    </div>
+                </div>
+                <!-- gallery 4 ends here -->
+                <!-- gallery 5 -->
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/namibia.jpg" alt="">
+                    </div>
+                </div>
+                <!-- gallery 5 ends here-->
+                <!-- gallery 6 -->
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/ango.jpg" alt="">
+                    </div>
+                </div>
+                <!-- gallery 6 ends here -->
+
+            </div>
+
+        </div>
+    </section>
+    <!-- gallery section ends here -->
+     <!-- about section -->
+     <div class="about" id="about">
+        <div class="container">
+            <div class="main-text">
+                <h1><span>A</span>bout</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/tanzania.jpg" class="about" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                        <h1>About <span>Explore</span> Tour Company</h1>
+                        <p>Welcome to Explore Tour Company, where your adventure begins! We are passionate about creating
+                            unforgettable travel experiences that allow you to discover the world in a whole new light. Whether 
+                            you're seeking a thrilling outdoor adventure, a cultural immersion, or a relaxing escape, we have the 
+                            perfect tour for you.
+
+                        </p>
+                        <p>
+                            At Explore Tour Company, our mission is to connect people with the wonders of the world. We strive 
+                            to provide exceptional service, expert guides, and unique itineraries that showcase the beauty, 
+                            history, and culture of each destination. We believe that travel should be enriching, inspiring, and 
+                            accessible to all.
+                        </p>
+                    </div>
+                </div>
+                </div>
+                </div>
+      <!-- about section ends here -->
+       <!-- footer section starts -->
+        <footer>
+            <div class="footer">
+                
+                    <p>Proudly sponsored by Elite Life Magazine</p>
+                    <p>All rights reserved 2024 | Sanofi Digital</p>
+                </div>
+            </div>
+        </footer>
+       <!-- footer section ends -->
+    
+
+
+
+    <!-- script link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
